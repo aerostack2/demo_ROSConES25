@@ -20,6 +20,7 @@
     ros__parameters:
       cmd_freq: 30.0 # Hz of controller commands send
       plugin_name: "pid_speed_controller"
+      tf_timeout_threshold: 0.0
       # Plugin parameters
       proportional_limitation: true
       position_control:
@@ -54,6 +55,7 @@
   GoToBehavior:
     ros__parameters:
       go_to_plugin_name: go_to_plugin_position
+      go_to_threshold: 0.2
   FollowPathBehavior:
     ros__parameters:
       follow_path_plugin_name: follow_path_plugin_position
