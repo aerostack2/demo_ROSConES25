@@ -1,5 +1,5 @@
-# ROSCon ES'24 Aerostack2 demonstration
-This repository contains the demonstration used in the Aerostack2 Tutorial in ROSCon ES'24.
+# ROSCon ES'25 Aerostack2 demonstration
+This repository contains the demonstration used in the Aerostack2 Tutorial in ROSCon ES'25.
 
 Slides can be found [online](https://docs.google.com/presentation/d/1hjP8gxDRpMIkM-t7CMRemirabQHAWMtExiB2WkvZuYg/edit#slide=id.g301f70bfd0b_1_3) or in the [slides](slides.pdf).
 
@@ -7,8 +7,8 @@ Slides can be found [online](https://docs.google.com/presentation/d/1hjP8gxDRpMI
 First step is to clone this repository:
 
 ```bash
-git clone https://github.com/aerostack2/demo_ROSConES24.git
-cd demo_ROSConES24
+git clone https://github.com/aerostack2/demo_ROSConES25.git
+cd demo_ROSConES25
 ```
 
 For this demo we are going to use Aerostack2 v1.1 which is available throught apt.
@@ -42,7 +42,7 @@ docker compose up -d # use the -d for keep the container alive in background
 
 > If your host machine is Windows, change display configuration at `docker-compose.yaml`. See [Issue 4](https://github.com/aerostack2/demo_ROSConES24/issues/4). Kudos to [@dvdmc](https://github.com/dvdmc).
 
-With this there is a running instance of the container with this project mounted in ```/root/demo_ROSConES24```.
+With this there is a running instance of the container with this project mounted in ```/root/demo_ROSConES25```.
 Now you can run as much terminals as you need by running: 
 
 ```bash
