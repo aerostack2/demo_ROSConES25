@@ -46,7 +46,7 @@ With this there is a running instance of the container with this project mounted
 Now you can run as much terminals as you need by running: 
 
 ```bash
-docker exec -it aerostack2_roscon /bin/bash
+docker exec -it aerostack2_roscon25 /bin/bash
 ```
 
 > For stopping the container run ```xhost - ; docker compose down ``` command on the repo root folder. This will also remove the access to the XServer from the container.

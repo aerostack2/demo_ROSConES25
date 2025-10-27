@@ -1,10 +1,10 @@
 services:
   aerostack2:
-    image: aerostack2_roscon
+    image: aerostack2_roscon25
     build:
       context: ./docker/
       dockerfile: Dockerfile
-    container_name: aerostack2_roscon
+    container_name: aerostack2_roscon25
     environment:
       DISPLAY: $DISPLAY
       ROS_LOCALHOST_ONLY: 1
@@ -14,6 +14,6 @@ services:
       - ~/.Xauthority:/root/.Xauthority
       # 
       - /dev/:/dev
-      - .:/root/demo_ROSConES24/
+      - .:/root/demo_ROSConES25/
     network_mode: "host"
     command: tail -f /dev/null
